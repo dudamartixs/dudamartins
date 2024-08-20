@@ -1,0 +1,41 @@
+1. Algoritmo:
+   - Conjunto de passos ou instruções sequenciais para resolver um problema específico ou realizar uma tarefa.
+Pode ser expresso de forma verbal, diagramática ou por meio de código de programação.
+Os algoritmos são fundamentais para a resolução de problemas e para a programação. Eles fornecem uma maneira estruturada de pensar sobre como realizar tarefas e podem ser aplicados
+a uma ampla gama de situações, desde tarefas simples do dia a dia até operações complexas em computadores.
+
+2. Inteligência Artificial (IA):
+   - Área da ciência da computação focada em criar sistemas capazes de realizar tarefas que normalmente requerem inteligência humana, como aprendizado, raciocínio e tomada de decisões.
+A IA pode incluir técnicas como aprendizado de máquina e redes neurais.
+Alguns exemplos são:
+Assistentes Virtuais
+Siri, Alexa e Google Assistant: Esses assistentes virtuais utilizam IA para entender e responder a comandos de voz.
+Eles podem executar tarefas como definir lembretes, tocar músicas e fornecer informações sobre o tempo.
+A IA nesses sistemas utiliza técnicas de Processamento de Linguagem Natural para interpretar e responder às perguntas dos usuários.
+Reconhecimento de Imagens
+Identificação de Rosto: Serviços como o reconhecimento facial do Facebook ou do Google Fotos usam IA para identificar e classificar rostos em imagens.
+Eles empregam técnicas de visão computacional para analisar características faciais e comparar com bancos de dados de rostos conhecidos.
+Recomendação de Produtos
+Netflix e Amazon: Essas plataformas utilizam IA para recomendar filmes, séries e produtos com base no comportamento e nas preferências dos usuários. 
+Algoritmos de aprendizado de máquina analisam seu histórico de visualização ou compras e sugerem itens que você pode gostar.
+
+3. Dados:
+   - Conjunto de fatos, estatísticas ou informações que são coletadas e podem ser analisadas. 
+Os dados podem ser em forma de números, texto, imagens ou outros formatos e servem como base para a obtenção de insights ou tomada de decisões.
+
+4. Banco de Dados:
+   - Estrutura organizada para armazenar, gerenciar e recuperar dados de forma eficiente.
+Os bancos de dados utilizam um sistema de gerenciamento (SGBD) para manipular os dados, oferecendo funcionalidades como consulta, inserção, atualização e exclusão.
+
+5. Sistema de Arquivos:
+   - Método e estrutura usados pelo sistema operacional para gerenciar e armazenar arquivos em um dispositivo de armazenamento.
+Ele define como os arquivos são nomeados, organizados e acessados, e pode incluir diretórios e permissões de acesso, por exemplo, IOS, Android, Windows, Linux...
+
+Fontes:
+https://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844
+https://www.amazon.com/Artificial-Intelligence-Modern-Approach-4th/dp/0134610997
+https://www.amazon.com/Data-Science-Business-Data-Analytic-Thinking/dp/1449361323
+https://www.amazon.com/Database-System-Concepts-Abraham-Silberschatz/dp/1260247124
+https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1119804790
+
+
