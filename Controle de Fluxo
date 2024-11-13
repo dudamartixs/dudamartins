@@ -1,0 +1,26 @@
+# Exemplo de estrutura de decisão e repetição em Python
+
+# Função para verificar se um número é par ou ímpar
+def verificar_paridade(numero):
+    return "par" if numero % 2 == 0 else "ímpar"
+
+# Função principal com estrutura de repetição para entrada e verificação de números
+def main():
+    # Define o número de iterações
+    n = 5
+
+    for i in range(n):
+        try:
+            # Solicita entrada do usuário
+            numero = int(input("Digite um número inteiro: "))
+            
+            # Determina e exibe a paridade do número
+            resultado = verificar_paridade(numero)
+            print(f"O número {numero} é {resultado}.")
+        
+        except ValueError:
+            print("Entrada inválida. Por favor, digite um número inteiro.")
+    
+# Executa a função principal se o script for rodado diretamente
+if _name_ == "_main_":
+    main()
