@@ -1,0 +1,76 @@
+[, 11/13/2024] duda martins: def celsius_para_fahrenheit():
+    # Recebe a temperatura em Celsius do usuário
+    celsius = float(input("Informe a temperatura em Celsius: "))
+    
+    # Converte para Fahrenheit usando a fórmula de conversão
+    fahrenheit = (celsius * 9 / 5) + 32
+    
+    # Exibe o resultado da conversão
+    print(f"Temperatura em Fahrenheit: {fahrenheit:.2f}")
+
+# Executa a função como exemplo de uso
+celsius_para_fahrenheit()
+[18:31, 11/13/2024] duda martins: def imprimir_informacoes(nome, idade, cidade):
+    print(f"Nome: {nome} - Idade: {idade} - Cidade: {cidade}.")
+
+# Exemplo de uso da função
+imprimir_informacoes("Malu", 18, "RJ")
+[18:31, 11/13/2024] duda martins: def lista_de_compras():
+    # Recebe a lista de itens do usuário, separados por vírgula
+    entrada = input("Digite os itens da lista de compras separados por vírgula: ")
+    
+    # Converte a entrada em uma lista, removendo espaços extras em cada item
+    itens = [item.strip() for item in entrada.split(',')]
+    
+    # Exibe cada item da lista com sua numeração
+    for indice, item in enumerate(itens, start=1):
+        print(f"Item {indice}: {item}")
+
+# Exemplo de uso da função
+lista_de_compras()
+[18:31, 11/13/2024] duda martins: def coletar_nomes():
+    nomes = []
+    
+    while True:
+        nome = input("Digite um nome (ou 'sair' para finalizar): ")
+        
+        if nome.lower() == 'sair':
+            break
+        
+        nomes.append(nome)
+    
+    print("Lista de nomes inseridos:")
+    for nome in nomes:
+        print(nome)
+
+# Exemplo de uso da função
+coletar_nomes()
+[18:31, 11/13/2024] duda martins: def calculadora():
+    # Recebe o primeiro número do usuário
+    num1 = float(input("Informe o primeiro número: "))
+    
+    # Recebe o segundo número do usuário
+    num2 = float(input("Informe o segundo número: "))
+    
+    # Recebe a operação desejada do usuário
+    operacao = input("Escolha a operação ('+', '-', '*', '/'): ")
+    
+    # Executa a operação conforme a escolha do usuário
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        # Verifica se o divisor é zero
+        if num2 == 0:
+            print("Erro: Divisão por zero não é permitida.")
+            return
+        resultado = num1 / num2
+    else:
+        print("Operação inválida! Utilize '+', '-', '*' ou '/'.")
+        return
+    
+    # Exibe o resultado da operação
+    print(f"Resultado: {resultado}")
