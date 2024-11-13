@@ -1,0 +1,21 @@
+# bubble_sort.py
+
+def bubble_sort(arr):
+    n = len(arr)
+    # Percorre todos os elementos do array
+    for i in range(n):
+        # Os últimos i elementos já estão ordenados
+        for j in range(0, n - i - 1):
+            # Compara e troca os elementos, se necessário
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+def main():
+    # Array de exemplo
+    array = [64, 34, 25, 12, 22, 11, 90]
+    print("Array original:", array)
+    bubble_sort(array)
+    print("Array ordenado:", array)
+
+if _name_ == "_main_":
+    main()
